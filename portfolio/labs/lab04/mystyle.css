@@ -1,0 +1,11 @@
+
+img {
+  widows: 100px;
+  height: 100px;
+}
+
+div {
+  border: solid 1px blue;
+  margin: 10px;
+  padding: 10px;
+}
