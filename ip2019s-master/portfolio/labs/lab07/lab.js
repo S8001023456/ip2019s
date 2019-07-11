@@ -35,7 +35,7 @@ function analyze() {
 
 var subs2 = subs.replace('237','437');
 
-      var path = image.path(subs).fill('none').stroke('red').draggable();
+      var path = image.path(subs).fill('none').stroke({ color :'red', width: 10}).draggable();
 
       path.animate(2000).plot(subs2).loop(true,true);
 
